@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  height: 100%;
+  background: rgb(240, 200, 105);
+  background: linear-gradient(
+    89deg,
+    rgba(240, 200, 105, 1) 0%,
+    rgba(255, 0, 155, 1) 99%
+  );
+}
+
+.nav {
+  text-align: center;
+  color: #fff;
+  height: 40px;
+  margin: 40px;
+  font-size: 2rem;
+}
+
+.play-area {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.player {
+  text-align: center;
+  padding-top: 40px;
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 24px;
+  height: 300px;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.player-1 {
+  margin-right: 50px;
+}
+
+.vs {
+  color: #fff;
+}
+
+.player-2 {
+  margin-left: 50px;
+}
+
+.options {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.player-option {
+  height: 200px;
+  width: 200px;
+}
+
+.winner {
+  background-color: green;
+}
+
+.looser {
+  background-color: red;
+}
+
+.reset-button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reset {
+  height: 55px;
+  width: 250px;
+  border-radius: 24px;
+  border: 2px solid;
+  margin-top: 150px;
+  background: none;
+  color: #fff;
+  font-size: 1.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.reset:hover {
+  transition: 1s;
+  background-color: #ff0d9a;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}

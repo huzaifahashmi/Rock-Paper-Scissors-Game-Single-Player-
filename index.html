@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <script defer src="script.js"></script>
+    <title>RPS game | The ultimate game to resolve disputes</title>
+  </head>
+  <body>
+    <div class="nav">
+      <h1 id="message">Rock Paper Scissors</h1>
+    </div>
+
+    <div class="play-area">
+      <div class="player player-1" id="player-1">
+        <div class="image">
+          <img id="player-choice" src="" alt="" />
+        </div>
+      </div>
+      <h1 class="vs">VS</h1>
+      <div class="player player-2" id="player-2">
+        <div class="image">
+          <img id="computer-choice" src="" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="options" id="options">
+      <img class="rock player-option" id="rock" src="images/rpc3.png" alt="" />
+      <img
+        class="paper player-option"
+        id="paper"
+        src="images/rpc2.png"
+        alt=""
+      />
+      <img
+        class="schizer player-option"
+        id="schizer"
+        src="images/rpc1.png"
+        alt=""
+      />
+    </div>
+    <div class="reset-button">
+      <button class="reset hidden" id="reset">Restart the game</button>
+    </div>
+  </body>
+</html>
